@@ -17,6 +17,19 @@ A backend platform/service allowing rapid developing of front-end apps.
 	npm install
 	npm link
 
+## Run
+ - Update config.js with your settings.
+ - Update system environment in chouchou.js
+  - For development
+  	var server = new Server(config.__CONFIG__.development);
+  - For production
+  	var server = new Server(config.__CONFIG__.production);
+ - Execute
+  - In PRODUCTION mode
+  	node chouchou
+  - In DEBUG mode
+  	DEBUG=* node chouchou 
+
 ## License
 
     Licensed under the Apache License, Version 2.0 (the "License");
