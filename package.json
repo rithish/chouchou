@@ -1,7 +1,7 @@
 {
   "author": "Rithish Saralaya",
   "name": "chouchou",
-  "version": "0.1",
+  "version": "0.6.11",
   "description": "A backend platform to fuel app development",
   "repository": {
     "url": "git://github.com/goibibo/chouchou.git"
